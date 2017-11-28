@@ -11,6 +11,7 @@ plugins: null
 permalink: pretty
 markdown: kramdown
 exclude:
+incremental: false
 
 collections:
   articles:
