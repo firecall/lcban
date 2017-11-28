@@ -1,0 +1,25 @@
+{% assign e = include.data %}
+<ul>
+  <li class="cb" data-clipboard-text="{{ e.title }}">{{ e.title }}
+  <li class="cb" data-clipboard-text='{{ e.title | downcase | replace: " ", "-" | replace: "---", "-" | replace: "&", "and" }}'>{{ e.title | downcase | replace: " ", "-" | replace: "---", "-" | replace: "&", "and" }}
+  <li class="cb" data-clipboard-text="{{ e.subhead | strip_html | escape }}">{{ e.subhead | strip_html | escape }}
+</ul>
+
+
+<button class="cb" data-clipboard-target="#full-code">Copy HTML</button>
+<div id="full-code">
+{% highlight html %}    
+<div class="heading centered">
+  <h1>{{ e.title }}</h1>
+</div>
+<p><strong>{{ e.subhead }}</strong></p>
+<p><img src="{{ e.img }}" border="0" alt="{{ e.title }}" title="{{ e.title }}" style="max-width: 100%; height: auto;" /></p>
+{% for e in e.body %}
+<p>{{ e  }}</p>
+{% endfor %}
+{% endhighlight %}
+</div>
+<script>
+  new Clipboard('.cb');
+</script>
+

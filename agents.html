@@ -1,0 +1,70 @@
+---
+title: Agents
+layout: agents
+type: agents
+---
+
+{% assign countries = site.data.agents | sort:"country" | map: 'country' | uniq  %}
+
+{% assign country_count = countries.size | plus: 0  %}
+{% assign col_limit = country_count | divided_by: 4 %}
+
+{% assign col1 = 0 %}
+{% assign col2 = col_limit | plus: col1 %}
+{% assign col3 = col_limit | plus: col2 %}
+{% assign col4 = col_limit | plus: col3 %}
+
+<div class="row">
+  <div class="small-12 columns">
+    <p>Find a representative located in your country to assist you with application.</p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="small-12 medium-3 columns">
+    <ul>
+    {% for e in countries limit: col_limit %}
+      <li><a title="{{e}}" href="#{{e}}">{{e}}</a></li>
+    {% endfor %}
+    </ul>      
+  </div>
+  <div class="small-12 medium-3 columns">
+    <ul>
+    {% for e in countries limit: col_limit offset: col2 %}
+      <li><a title="{{e}}" href="#{{e}}">{{e}}</a></li>
+    {% endfor %}
+    </ul>      
+  </div>
+  <div class="small-12 medium-3 columns">
+    <ul>
+    {% for e in countries limit: col_limit offset: col3 %}
+      <li><a title="{{e}}" href="#{{e}}">{{e}}</a></li>
+    {% endfor %}
+    </ul>      
+  </div>
+  <div class="small-12 medium-3 columns">
+    <ul>
+    {% for e in countries limit: col_limit offset: col4 %}
+      <li><a title="{{e}}" href="#{{e}}">{{e}}</a></li>
+    {% endfor %}
+    </ul>      
+  </div>
+</div>
+<div class="row">
+  <div class="small-12 columns">
+    {% for country in countries %}
+      <p><a name="{{ country }}"></a></p>
+      <h3>{{ country }}</h3>
+      {% assign agents = site.data.agents | where:'country', country %}
+      {% for e in agents %}
+      <h4 style="text-transform:capitalize;">{{ e.provider | capitalize }}</h4>
+        <ul>
+          {% if e.address %}<li>{{ e.address }}</li>{% endif %}
+          {% if e.country %}<li>{{ e.country }}</li>{% endif %}
+          {% if e.phone %}<li><a href="tel:{{ e.phone }}">{{ e.phone }}</a></li>{% endif %}
+          {% if e.website %}{% unless e.website == "NA" %}<li><a href="https://{{ e.website }}" title="{{ e.provider }}" target="_blank">{{ e.website }}</a></li>{% endunless %}{% endif %}
+        </ul>
+      {% endfor %}
+    {% endfor %}
+  </div>
+</div>

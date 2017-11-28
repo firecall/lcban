@@ -1,0 +1,48 @@
+title: Le Cordon Bleu
+email: acounsell@cordonbleu.edu
+description:
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+host: 0.0.0.0
+encoding: utf-8
+sass: null
+theme: null
+plugins: null
+permalink: pretty
+markdown: kramdown
+exclude:
+
+collections:
+  articles:
+    permalink: '/:collection/:name/'
+    output: true
+    hide_content: true    
+  emails:
+    permalink: '/:collection/:name/'
+    output: true
+    hide_content: true    
+
+defaults:
+  - scope:
+      path: ''
+    values:
+      layout: default
+      title: Le Cordon Bleu
+      img: http://via.placeholder.com/920x518
+      type: news
+
+  - scope:
+      path: ''
+      type: articles
+    values:
+      layout: default
+      title: Le Cordon Bleu News
+      type: news
+
+  - scope:
+      path: ''
+      type: emails
+    values:
+      layout: email
+      subject: Latest from Le Cordon Bleu Australia
+      type: email
