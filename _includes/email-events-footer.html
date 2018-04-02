@@ -1,0 +1,34 @@
+<table class="one-col" style="border-collapse: collapse; border-spacing: 0; margin-left: auto; margin-right: auto; width: 600px; background-color: #ffffff; font-size: 14px; table-layout: fixed;" emb-background-style="">
+  <tbody>
+    <tr>
+      <td class="column" style="padding: 0; vertical-align: top; text-align: left;">
+        <div class="image" style="font-size: 12px; margin-bottom: 24px; mso-line-height-rule: at-least; font-style: normal; font-weight: 400; font-family: Georgia,serif; color: #333;"><span class="image" style="font-size: 12px; margin-bottom: 24px; mso-line-height-rule: at-least; font-style: normal; font-weight: 400; font-family: Georgia,serif; color: #333;"><a href="https://www.cordonbleu.edu/index.cfm?fa=CampaignFrontMod.CampaignAccess&amp;cp=14931&amp;tkn=5D5142"><img class="gnd-corner-image gnd-corner-image-center gnd-corner-image-top" style="border: 0; -ms-interpolation-mode: bicubic; display: block; max-width: 900px; margin: 0px;" src="https://www.cordonbleu.edu/Files/MediaFile/50776.png" border="0" alt="upcoming events" /></a></span></div>
+        <table class="contents" style="border-collapse: collapse; border-spacing: 0; table-layout: fixed; width: 100%;">
+          <tbody>
+            <tr>
+              <td class="padded" style="padding: 0; vertical-align: top; padding-left: 32px; padding-right: 32px; word-break: break-word; word-wrap: break-word;">
+                <h2 style="margin-top: 0; font-style: italic; font-weight: normal; font-size: 26px; line-height: 32px; margin-bottom: 20px; font-family: Georgia,serif; color: #062b68;"><em>Upcoming Events </em></h2>
+                <p style="margin-top: 0; font-style: normal; font-weight: 400; line-height: 24px; margin-bottom: 24px; font-family: Helvetica, Arial, sans-serif; color: #333; font-size: 14px; text-align: left;"><strong>Ever wondered what it&rsquo;s like to study at the prestigious <a style="color: #333;" title="LCB Australia" href="https://www.cordonbleu.edu/index.cfm?fa=CampaignFrontMod.CampaignAccess&amp;cp=14931&amp;tkn=5D5142">Le Cordon Bleu Australia</a> culinary and hospitality school? </strong></p>
+                <p style="font-style: normal; font-weight: 400; line-height: 24px; margin-bottom: 24px; font-family: Helvetica, Arial, sans-serif; color: #333; font-size: 14px; text-align: left;">Our Le Cordon Bleu representatives will be attending education fairs. To learn more about Le Cordon Bleu and the programs on offer, come and meet our Marketing team. You can discuss career pathway options and how a qualification from Le Cordon Bleu can open doors to the world's best kitchens and finest hotels.</p>
+                <p style="font-style: normal; font-weight: 400; line-height: 24px; margin-bottom: 24px; font-family: Helvetica, Arial, sans-serif; color: #333; font-size: 14px; text-align: left;"><strong>Australia Events</strong></p>
+                
+                {% for e in site.data.email-events-footer %}
+                <p style="font-style: normal; font-weight: 400; line-height: 24px; margin-bottom: 24px; font-family: Helvetica, Arial, sans-serif; color: #333; font-size: 14px; text-align: left;">
+                  <span style="font-style: normal; font-weight: 400; line-height: 24px; margin-bottom: 24px; font-family: Helvetica, Arial, sans-serif; color: #333; font-size: 14px;">
+                    <em>{{ e.date }}</em>
+                    <br />
+                    <a style="font-style: normal; font-weight: 400; line-height: 24px; margin-bottom: 21px; font-family: Helvetica, Arial, sans-serif; color: #333;" title="" href="{{ e.link }}{{ page.utm }}" target="_blank">
+                      {{ e.name }} &rarr;
+                    </a>
+                  </span>
+                </p>
+                {% endfor %}
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
