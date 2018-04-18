@@ -21,11 +21,7 @@ collections:
   emails:
     permalink: '/:collection/:name/'
     output: true
-    hide_content: true
-  academicdates:
-    permalink: '/:collection/:name/'
-    output: true
-    hide_content: true  
+    hide_content: true    
 
 defaults:
   - scope:
@@ -51,11 +47,3 @@ defaults:
       layout: email
       subject: Latest from Le Cordon Bleu Australia
       type: email
-
-  - scope:
-      path: ''
-      type: academicdates
-    values:
-      layout: academicdate
-      subject: Academic Dates
-      type: page

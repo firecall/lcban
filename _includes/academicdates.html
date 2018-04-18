@@ -1,0 +1,43 @@
+{% assign e = include.data %}
+
+{% for i in e.programs %}
+<div class="row">
+  <div class="small-12 columns">
+    <h3>{{ i.program }}</h3>
+    <table style="background-color: none;border-collapse: collapse;text-align: left;vertical-align: middle;width: 90%;">
+      <tr>
+        <th style="padding:8px;border: 1px solid #988854;"></th>
+        <th style="padding:8px;border: 1px solid #988854;">Orientation</th>
+        <th style="padding:8px;border: 1px solid #988854;">Start</th>
+        <th style="padding:8px;border: 1px solid #988854;">End</th>
+      </tr>
+    
+    {% for t in i.terms %}
+      <tr>
+        <td style="padding:8px;border: 1px solid #988854;">{{ t.term }}</td>
+        <td style="padding:8px;border: 1px solid #988854;">{{ t.orientation }}</td>
+        <td style="padding:8px;border: 1px solid #988854;">{{ t.start }}</td>
+        <td style="padding:8px;border: 1px solid #988854;">{{ t.end }}</td>
+      </tr>
+    {% endfor %}
+    </table>
+  </div>
+</div>
+{% endfor %}
+<div class="row">
+  <div class="small-12 columns">
+    <h3>{{ e.public-holiday-title }}</h3>
+    <ul>
+      {% for e in e.public-holidays %}
+      <li>{{ e }}</li>
+      {% endfor %}
+    </ul>
+    <p>*Australia Day public holiday – if 26 January is a Saturday or Sunday, the public holiday is to be observed on the following Monday</p>
+    <p>Please note:</p>
+    <ul>
+      <li>Students must be available between the published dates for the first and last day of term and must not make travel arrangements within these dates.</li>
+      <li>All information is correct at the time of publishing, but may be subject to change.</li>
+    </ul>
+</div>
+</div>
+
