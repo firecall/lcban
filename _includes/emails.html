@@ -55,7 +55,7 @@
                       class="gnd-corner-image gnd-corner-image-center gnd-corner-image-top" 
                       style="border: 0; -ms-interpolation-mode: bicubic; display: block; max-width: 600px; margin: 0px;" 
                       src="{{ i.img }}" border="0" 
-                      alt="{{ i.img-alt }}" 
+                      alt="{% if i.img-alt %}{{ i.img-alt }}{% else %}{{ i.title }}{% endif %}" 
                     />
                   </a>
                 </div>
