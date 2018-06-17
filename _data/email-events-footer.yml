@@ -1,31 +1,117 @@
-- name: Taste of Le Cordonbleu Sydney
-  date: 8th May 2018, Sydney
-  link: https://www.cordonbleu.edu/sydney/taste-of-lcb/en
+title: Short Courses
+utm: "?utm_source=newsletter&utm_medium=email&utm_campaign=australia-201805-newsletter"
+short-courses:
+  - row: one
+    courses:
+      - name: Teaching Gastronomy - Adelaide
+        date: 19th June 2018
+        price: A$75.00
+        location: Adelaide
+        img: https://static.cordonbleu.edu/Files/MediaFile/55294.jpg
+        link: https://www.cordonbleu.edu/adelaide/teaching-gastronomy-a-le-cordon-bleu-professional-learning-workshop/en
 
-- name: Teaching Gastronomy - Adelaide
-  date: 19th June 2018, Adelaide
-  link: https://www.cordonbleu.edu/adelaide/teaching-gastronomy-a-le-cordon-bleu-professional-learning-workshop/en
+      - name: Traditional French Breads - Pain français traditionnel
+        date: 23 - 24 June 2018
+        price: $515.00
+        location: Adelaide
+        img: https://static.cordonbleu.edu/Files/MediaFile/54387.jpg
+        link: https://www.cordonbleu.edu/adelaide/traditional-french-bread-baking/en
 
-- name: Teaching Gastronomy - Sydney
-  date: 21st June 2018, Sydney
-  link: https://www.cordonbleu.edu/sydney/teaching-gastronomy-a-le-cordon-bleu-professional-learning-workshop/en
+      - name: Modern French Breakfast Pastries - moderne viennoiserie
+        date: 27 - 28 September 2018
+        price: $515.00
+        location: Adelaide
+        img: https://static.cordonbleu.edu/Files/MediaFile/54386.jpg
+        link: https://www.cordonbleu.edu/adelaide/modern-french-breakfast-pastries/en
 
-- name: Food Photography and Styling Workshop
-  date: 23 - 24 June 2018, Sydney
-  link: https://www.cordonbleu.edu/sydney/food-photography-styling-workshop/en
+  - row: two
+    courses:
+      - name: Cuisine Technique Essentials
+        date: 30 June 2018
+        price: $270
+        location: Melbourne
+        img: https://static.cordonbleu.edu/Files/MediaFile/56106.jpg
+        link: https://www.cordonbleu.edu/melbourne/cuisine-technique-essentials/en
 
-- name: Traditional French Breads - Pain français traditionnel
-  date: 31 July - 1 August 2018, Adelaide
-  link: https://www.cordonbleu.edu/adelaide/traditional-french-bread-baking/en
+      - name: Patisserie Technique Essentials
+        date: 1 July 2018
+        price: $255
+        location: Melbourne
+        img: https://static.cordonbleu.edu/Files/MediaFile/56030.jpg
+        link: https://www.cordonbleu.edu/melbourne/patisserie-technique-essentials/en
 
-- name: Food Photography and Styling Workshop
-  date: 15 - 16 September 2018, Sydney
-  link: https://www.cordonbleu.edu/sydney/food-photography-styling-workshop/en
+      - name: Traditional French Bread
+        date: 15 - 16 September 2018
+        price: $515
+        location: Melbourne
+        img: https://static.cordonbleu.edu/Files/MediaFile/56032.jpg
+        link: https://www.cordonbleu.edu/melbourne/traditional-french-bread/en
 
-- name: Modern French Breakfast Pastries - moderne viennoiserie
-  date: 27 - 28 September 2018, Adelaide
-  link: https://www.cordonbleu.edu/adelaide/modern-french-breakfast-pastries/en
+  - row: three
+    courses:
+      - name: Taste of Le Cordon Bleu Cuisine & Pastry
+        date: 22 - 23 September 2018
+        price: $515
+        location: Melbourne
+        img: https://static.cordonbleu.edu/Files/MediaFile/56036.jpg
+        link: https://www.cordonbleu.edu/melbourne/taste-of-le-cordon-bleu-cuisine-and-pastry/en
 
-- name: Food Photography and Styling Workshop
-  date: 20 - 21 October 2018, Melbourne
-  link: https://www.cordonbleu.edu/melbourne/food-photography-styling-workshop/en
+      - name: Food Photography and Styling Workshop
+        date: 20 - 21 October 2018
+        price: $675
+        location: Melbourne
+        img: https://static.cordonbleu.edu/Files/MediaFile/42952.jpg
+        link: https://www.cordonbleu.edu/melbourne/food-photography-styling-workshop/en
+
+      - name: Discover Chocolate - Handmade Truffles and Bonbons
+        date: 7 December 2018
+        price: $270
+        location: Melbourne
+        img: https://static.cordonbleu.edu/Files/MediaFile/56035.jpg
+        link: https://www.cordonbleu.edu/melbourne/discover-chocolate-handmade-truffles-and-bonbons/en
+
+  - row: four
+    courses:
+      - name: Gateaux, Tortes and Celebration Cakes
+        date: 8 - 9 December 2018
+        price: $515
+        location: Melbourne
+        img: https://static.cordonbleu.edu/Files/MediaFile/56033.jpg
+        link: https://www.cordonbleu.edu/melbourne/gateaux-tortes-and-celebration-cakes/en
+
+      - name: Teaching Gastronomy - Sydney
+        date: 21 June 2018
+        price: $75
+        location: Sydney
+        img: https://static.cordonbleu.edu/Files/MediaFile/55294.jpg
+        link: https://www.cordonbleu.edu/sydney/teaching-gastronomy-a-le-cordon-bleu-professional-learning-workshop/en
+
+      - name: Food Photography and Styling Workshop
+        date: 23 - 24 June 2018
+        price: $675
+        location: Sydney
+        img: https://static.cordonbleu.edu/Files/MediaFile/42952.jpg
+        link: https://www.cordonbleu.edu/sydney/food-photography-styling-workshop/en
+
+  - row: five
+    courses:
+      - name: Food Photography & Styling
+        date: 30 August 2018
+        price: $325
+        location: Byron Bay, NSW
+        img: https://static.cordonbleu.edu/Files/MediaFile/56156.jpg
+        link: https://samplefoodevents.com/food-photography-and-writing-workshops/
+  
+      - name: Eat Your Words
+        date: 31 August 2018
+        price: $325
+        location: Byron Bay, NSW
+        img: https://static.cordonbleu.edu/Files/MediaFile/56157.jpg
+        link: https://samplefoodevents.com/food-photography-and-writing-workshops/
+
+      - name: Traditional French Bread
+        date: 22 - 23 June 2018
+        price: $515
+        location: Sydney
+        img: https://static.cordonbleu.edu/Files/MediaFile/56032.jpg
+        link: https://www.cordonbleu.edu/sydney/traditional-french-bread/en

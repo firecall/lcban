@@ -12,6 +12,7 @@ permalink: pretty
 markdown: kramdown
 exclude:
 incremental: false
+future: true
 
 collections:
   articles:

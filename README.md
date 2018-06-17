@@ -10,7 +10,7 @@ Single-Column Block - Large
 Widget - HTML Block
 
 # Email
-Empty Container
+News Article Container
 Widget - HTML Block
 
 # Embed a Video

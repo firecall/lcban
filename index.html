@@ -2,7 +2,7 @@
 title: Builder
 type: home
 ---
-{% assign sorted-emails = (site.emails sort: 'date') reverse %}
+
 <div class="container">
   <div class="row mt-5">
     <div class="col">
@@ -31,6 +31,8 @@ type: home
           <th scope="col" class="text-center">MD</th>
           <th scope="col" class="text-center">HTML</th>
         </tr>
+        
+        {% assign sorted-emails = site.emails | sort: "date" | reverse %}
         {% for item in sorted-emails %}
         <tr>
           <td scope="row"><button class="cb btn btn-outline-primary btn-sm" data-clipboard-text="{{ item.subject }}"><i class="fas fa-clone"></i></button> <a href="{{ item.url }}" target="_blank">{{ item.subject }}</a></td>
