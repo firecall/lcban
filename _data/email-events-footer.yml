@@ -1,53 +1,30 @@
 title: Short Courses
-utm: "?utm_source=newsletter&utm_medium=email&utm_campaign=australia-201806-newsletter"
+utm: "?utm_source=newsletter&utm_medium=email&utm_campaign=australia-201807-newsletter"
 short-courses:
   - row: one
     courses:
-      - name: Cuisine Technique Essentials
-        date: 30 June 2018
-        price: $270
-        location: Melbourne
-        img: https://static.cordonbleu.edu/Files/MediaFile/56937.jpg
-        link: https://www.cordonbleu.edu/melbourne/cuisine-technique-essentials/en
-
-      - name: Patisserie Technique Essentials
-        date: 1 July 2018
-        price: $255
-        location: Melbourne
-        img: https://static.cordonbleu.edu/Files/MediaFile/56938.jpg
-        link: https://www.cordonbleu.edu/melbourne/patisserie-technique-essentials/en
-
-      - name: "Cordon Vert: Vegetarian Cooking from the Garden"
-        date: 7 July 2018
-        price: $69
-        location: Le Festival. Brisbane, QLD
-        img: https://static.cordonbleu.edu/Files/MediaFile/56948.jpg 
-        link: https://lefestival.com.au/2018/masterclasses/cordon-vert/
-
-  - row: two
-    courses:
-      - name: "French Profiteroles with a Flair"
-        date: 8 July 2018
-        price: $49
-        location: Le Festival. Brisbane, QLD
-        img:  https://static.cordonbleu.edu/Files/MediaFile/56949.jpg 
-        link: https://lefestival.com.au/2018/masterclasses/french-profiteroles-with-a-flair/
+      - name: Gastrophysics Seminar
+        date: 24 August 2018
+        price: Free
+        location: Brisbane
+        img: https://static.cordonbleu.edu/Files/MediaFile/57397.jpg
+        link: https://www.cordonbleu.edu/brisbane/gastrophysics-seminar/en
 
       - name: Food Photography & Styling
         date: 30 August 2018
         price: $325
-        location: Byron Bay, NSW
+        location: Byron Bay
         img: https://static.cordonbleu.edu/Files/MediaFile/56944.jpg
         link: https://samplefoodevents.com/food-photography-and-writing-workshops/
 
       - name: Eat Your Words
         date: 31 August 2018
         price: $325
-        location: Byron Bay, NSW
+        location: Byron Bay
         img: https://static.cordonbleu.edu/Files/MediaFile/56950.jpg
         link: https://samplefoodevents.com/food-photography-and-writing-workshops/
 
-  - row: three
+  - row: two
     courses:
       - name: Traditional French Bread
         date: 15 - 16 September 2018
@@ -62,7 +39,7 @@ short-courses:
         location: Melbourne
         img: https://static.cordonbleu.edu/Files/MediaFile/56939.jpg
         link: https://www.cordonbleu.edu/melbourne/taste-of-le-cordon-bleu-cuisine-and-pastry/en
-
+  
       - name: Modern French Breakfast Pastries - moderne viennoiserie
         date: 27 - 28 September 2018
         price: $515.00
@@ -70,7 +47,7 @@ short-courses:
         img: https://static.cordonbleu.edu/Files/MediaFile/56936.jpg
         link: https://www.cordonbleu.edu/adelaide/modern-french-breakfast-pastries/en
 
-  - row: four
+  - row: three
     courses:
       - name: Food Photography and Styling Workshop
         date: 20 - 21 October 2018
@@ -78,7 +55,7 @@ short-courses:
         location: Melbourne
         img: https://static.cordonbleu.edu/Files/MediaFile/56940.jpg
         link: https://www.cordonbleu.edu/melbourne/food-photography-styling-workshop/en
-      
+
       - name: Discover Chocolate - Handmade Truffles and Bonbons
         date: 7 December 2018
         price: $270
@@ -92,6 +69,11 @@ short-courses:
         location: Melbourne
         img: https://static.cordonbleu.edu/Files/MediaFile/56942.jpg
         link: https://www.cordonbleu.edu/melbourne/gateaux-tortes-and-celebration-cakes/en
+
+    
+
+
+
 
 
 
