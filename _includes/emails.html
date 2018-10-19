@@ -30,7 +30,7 @@
     <tr>
       <td class="logo emb-logo-padding-box" style="padding: 0; vertical-align: top; mso-line-height-rule: at-least; padding-top: 6px; padding-bottom: 20px;">
         <div id="emb-email-header" class="logo-left" style="font-family: Avenir,sans-serif; color: #41637e; font-size: 0px !important; font-weight: bold; letter-spacing: -0.02em; line-height: 0 !important;">
-          <a title="Le Cordon Bleu Australia" href="" target="_blank"> 
+          <a title="Le Cordon Bleu Australia" href="https://www.cordonbleu.edu/australia/{{ e.utm }}" target="_blank"> 
             <img style="border: 0; -ms-interpolation-mode: bicubic; display: block; max-width: 396px margin: 0px;" src="https://www.cordonbleu.edu/Files/MediaFile/52962.png?v=2118837776" border="0" alt="Le Cordon Bleu Australia Logo" />
           </a>
         </div>
@@ -50,7 +50,7 @@
             <tr>
               <td class="column" style="padding: 0; vertical-align: top; text-align: left;">
                 <div class="image" style="font-size: 12px; margin-bottom: 24px; mso-line-height-rule: at-least; color: #333;">
-                  <a href="{{ i.link }}{{ e.utm }}" target="_blank" title="{{ e.title }}">
+                  <a href="{{ i.link }}{{ e.utm }}&utm_content={{ i.title }}" target="_blank" title="{{ i.title }}">
                     <img width="600"
                       class="gnd-corner-image gnd-corner-image-center gnd-corner-image-top" 
                       style="border: 0; -ms-interpolation-mode: bicubic; display: block; max-width: 600px; margin: 0px;" 
@@ -91,7 +91,7 @@
                                     -moz-border-radius: 50px; 
                                     display: inline-block;" 
                                     title="{{ i.title }}"
-                                    href="{{ i.link }}{{ e.utm }}" 
+                                    href="{{ i.link }}{{ e.utm }}&utm_content={{ i.title }}" 
                                     target="_blank">Read More
                                   </a>
                                 </td>

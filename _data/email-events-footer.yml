@@ -1,60 +1,61 @@
-title: Short Courses
-utm: "?utm_source=newsletter&utm_medium=email&utm_campaign=australia-201807-newsletter"
+title: "Short Courses & Events"
+description: Upcoming short courses and events in Adelaide, Brisbane, Melbourne and Sydney.
+utm: "?utm_source=newsletter&utm_medium=email&utm_campaign=australia-201809-newsletter"
 short-courses:
   - row: one
     courses:
-      - name: Gastrophysics Seminar
-        date: 24 August 2018
+      - name: Adelaide Career Fair 2018
+        date: 10 October 2018
         price: Free
-        location: Brisbane
-        img: https://static.cordonbleu.edu/Files/MediaFile/57397.jpg
-        link: https://www.cordonbleu.edu/brisbane/gastrophysics-seminar/en
-
-      - name: Food Photography & Styling
-        date: 30 August 2018
-        price: $325
-        location: Byron Bay
-        img: https://static.cordonbleu.edu/Files/MediaFile/56944.jpg
-        link: https://samplefoodevents.com/food-photography-and-writing-workshops/
-
-      - name: Eat Your Words
-        date: 31 August 2018
-        price: $325
-        location: Byron Bay
-        img: https://static.cordonbleu.edu/Files/MediaFile/56950.jpg
-        link: https://samplefoodevents.com/food-photography-and-writing-workshops/
-
-  - row: two
-    courses:
-      - name: Traditional French Bread
-        date: 15 - 16 September 2018
-        price: $515
-        location: Melbourne
-        img: https://static.cordonbleu.edu/Files/MediaFile/56935.jpg
-        link: https://www.cordonbleu.edu/melbourne/traditional-french-bread/en
-
-      - name: Taste of Le Cordon Bleu Cuisine & Pastry
-        date: 22 - 23 September 2018
-        price: $515
-        location: Melbourne
-        img: https://static.cordonbleu.edu/Files/MediaFile/56939.jpg
-        link: https://www.cordonbleu.edu/melbourne/taste-of-le-cordon-bleu-cuisine-and-pastry/en
-  
-      - name: Modern French Breakfast Pastries - moderne viennoiserie
-        date: 27 - 28 September 2018
-        price: $515.00
         location: Adelaide
-        img: https://static.cordonbleu.edu/Files/MediaFile/56936.jpg
-        link: https://www.cordonbleu.edu/adelaide/modern-french-breakfast-pastries/en
+        img: https://static.cordonbleu.edu/Files/MediaFile/58495.jpg
+        link: https://www.cordonbleu.edu/Files/AAMCEN42135.pdf
 
-  - row: three
-    courses:
       - name: Food Photography and Styling Workshop
         date: 20 - 21 October 2018
         price: $675
         location: Melbourne
         img: https://static.cordonbleu.edu/Files/MediaFile/56940.jpg
         link: https://www.cordonbleu.edu/melbourne/food-photography-styling-workshop/en
+
+      - name: A Taste of Le Cordon Bleu Sydney
+        date: 23 October 2018
+        price: Free
+        location: Sydney
+        img:  https://static.cordonbleu.edu/Files/MediaFile/58498.jpg
+        link: https://www.cordonbleu.edu/sydney/taste-of-lcb/en
+
+  - row: two
+    courses:
+      - name: Jakarta Culinary Feastival
+        date: 1 - 4 November 2018
+        price: Check site for details
+        location: Jakarta - Indonesia
+        img: https://static.cordonbleu.edu/Files/MediaFile/58497.png
+        link: http://jakartaculinaryfeastival.com/
+
+      - name: A Taste of Le Cordon Bleu Adelaide
+        date: 1 November 2018
+        price: Free
+        location: Adelaide
+        img: https://static.cordonbleu.edu/Files/MediaFile/58498.jpg
+        link: https://www.cordonbleu.edu/adelaide/taste-of-lcb/en
+
+      - name: Discover Chocolate - Handmade Truffles and Bonbons
+        date: 1 December 2018
+        price: $270
+        location: Sydney
+        img: https://static.cordonbleu.edu/Files/MediaFile/56941.jpg
+        link: https://www.cordonbleu.edu/sydney/discover-chocolate-handmade-truffles-and-bonbons/en
+
+  - row: three
+    courses:
+      - name: Gateaux, Tortes and Celebration Cakes
+        date: 7 - 8 December 2018
+        price: $550
+        location: Sydney
+        img: https://static.cordonbleu.edu/Files/MediaFile/56942.jpg
+        link: https://www.cordonbleu.edu/sydney/gateaux-tortes-and-celebration-cakes/en
 
       - name: Discover Chocolate - Handmade Truffles and Bonbons
         date: 7 December 2018
@@ -69,16 +70,3 @@ short-courses:
         location: Melbourne
         img: https://static.cordonbleu.edu/Files/MediaFile/56942.jpg
         link: https://www.cordonbleu.edu/melbourne/gateaux-tortes-and-celebration-cakes/en
-
-    
-
-
-
-
-
-
-
-
-
-
-

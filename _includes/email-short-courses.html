@@ -9,7 +9,7 @@
             <tr>
               <td class="padded" style="padding: 0; vertical-align: top; padding-left: 32px; padding-right: 32px; word-break: break-word; word-wrap: break-word;">
                 <h2 style="margin-top: 0; font-style: italic; font-weight: normal; font-size: 26px; line-height: 32px; margin-bottom: 20px; color: #062b68;"><em><span>{{ e.title }}</span></em></h2>
-                <p style="font-style: normal; font-weight: 400; line-height: 24px; margin-bottom: 24px; font-family: Helvetica, Arial, sans-serif; color: #333; font-size: 14px;">Our upcoming short courses available in Adelaide, Brisbane, Melbourne and Sydney.</p>
+                <p style="font-style: normal; font-weight: 400; line-height: 24px; margin-bottom: 24px; font-family: Helvetica, Arial, sans-serif; color: #333; font-size: 14px;">{{ e.description }}</p>
               </td>
             </tr>
           </tbody>
@@ -79,7 +79,7 @@
                                       -moz-border-radius: 50px;
                                       display: inline-block;"
                                       title="{{ course.title }}"
-                                      href="{{ course.link }}{{ e.utm }}">
+                                      href="{{ course.link }}{{ e.utm }}&utm_content={{ course.name }}">
                                       Learn More
                                     </a>
                                   </td>

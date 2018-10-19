@@ -14,35 +14,35 @@ type: agents
 {% assign col3 = col_limit | plus: col2 %}
 {% assign col4 = col_limit | plus: col3 %}
 
-<div class="row">
-  <div class="small-12 columns">
+<div class="grid-x">
+  <div class="small-12 cell">
     <p>Find a representative located in your country to assist you with application.</p>
   </div>
 </div>
 
-<div class="row">
-  <div class="small-12 medium-3 columns">
+<div class="grid-x">
+  <div class="small-12 medium-3 cell">
     <ul>
     {% for e in countries limit: col_limit %}
       <li><a title="{{e}}" href="#{{e}}">{{e}}</a></li>
     {% endfor %}
     </ul>      
   </div>
-  <div class="small-12 medium-3 columns">
+  <div class="small-12 medium-3 cell">
     <ul>
     {% for e in countries limit: col_limit offset: col2 %}
       <li><a title="{{e}}" href="#{{e}}">{{e}}</a></li>
     {% endfor %}
     </ul>      
   </div>
-  <div class="small-12 medium-3 columns">
+  <div class="small-12 medium-3 cell">
     <ul>
     {% for e in countries limit: col_limit offset: col3 %}
       <li><a title="{{e}}" href="#{{e}}">{{e}}</a></li>
     {% endfor %}
     </ul>      
   </div>
-  <div class="small-12 medium-3 columns">
+  <div class="small-12 medium-3 cell">
     <ul>
     {% for e in countries limit: col_limit offset: col4 %}
       <li><a title="{{e}}" href="#{{e}}">{{e}}</a></li>
@@ -50,19 +50,25 @@ type: agents
     </ul>      
   </div>
 </div>
-<div class="row">
-  <div class="small-12 columns">
+<div class="grid-x">
+  <div class="small-12 cell">
     {% for country in countries %}
       <p><a name="{{ country }}"></a></p>
       <h3>{{ country }}</h3>
       {% assign agents = site.data.agents | where:'country', country %}
       {% for e in agents %}
-      <h4 style="text-transform:capitalize;">{{ e.provider | capitalize }}</h4>
+      
+      {% comment %} 
+        CSV bug make jekyll skip first column for some reason, so duplicate and add dummy first column in CSV file
+      {% endcomment %}
+
+      {% if e.provider %}<h4 style="text-transform:capitalize;">{{ e.provider | capitalize }}</h4>{% endif %}
         <ul>
+          {% if e.contact-person %}<li>{{ e.contact-person }} : <a href="mailto:{{ e.email }}?subject=Enquiry from Le Cordon Bleu Australia Website - attention {{ e.contact-person }}">{{ e.email }}</a></li>{% endif %}
           {% if e.address %}<li>{{ e.address }}</li>{% endif %}
           {% if e.country %}<li>{{ e.country }}</li>{% endif %}
           {% if e.phone %}<li><a href="tel:{{ e.phone }}">{{ e.phone }}</a></li>{% endif %}
-          {% if e.website %}{% unless e.website == "NA" %}<li><a href="https://{{ e.website }}" title="{{ e.provider }}" target="_blank">{{ e.website }}</a></li>{% endunless %}{% endif %}
+          {% if e.website %}<li><a href="https://{{ e.website | downcase }}" title="{{ e.provider }}" target="_blank">{{ e.website | downcase }}</a></li>{% endif %}
         </ul>
       {% endfor %}
     {% endfor %}

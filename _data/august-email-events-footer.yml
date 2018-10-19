@@ -1,0 +1,56 @@
+title: Short Courses
+utm: "?utm_source=newsletter&utm_medium=email&utm_campaign=australia-201808-newsletter"
+short-courses:
+  - row: one
+    courses:
+      - name: Traditional French Bread
+        date: 15 - 16 September 2018
+        price: $515
+        location: Melbourne
+        img: https://static.cordonbleu.edu/Files/MediaFile/56935.jpg
+        link: https://www.cordonbleu.edu/melbourne/traditional-french-bread/en
+
+      - name: Taste of Le Cordon Bleu Cuisine & Pastry
+        date: 22 - 23 September 2018
+        price: $515
+        location: Melbourne
+        img: https://static.cordonbleu.edu/Files/MediaFile/56939.jpg
+        link: https://www.cordonbleu.edu/melbourne/taste-of-le-cordon-bleu-cuisine-and-pastry/en
+
+      - name: Modern French Breakfast Pastries - moderne viennoiserie
+        date: 27 - 28 September 2018
+        price: $515.00
+        location: Adelaide
+        img: https://static.cordonbleu.edu/Files/MediaFile/56936.jpg
+        link: https://www.cordonbleu.edu/adelaide/modern-french-breakfast-pastries/en
+
+  - row: two
+    courses:
+      - name: Food Photography and Styling Workshop
+        date: 20 - 21 October 2018
+        price: $675
+        location: Melbourne
+        img: https://static.cordonbleu.edu/Files/MediaFile/56940.jpg
+        link: https://www.cordonbleu.edu/melbourne/food-photography-styling-workshop/en
+      
+      - name: Discover Chocolate - Handmade Truffles and Bonbons
+        date: 7 December 2018
+        price: $270
+        location: Melbourne
+        img: https://static.cordonbleu.edu/Files/MediaFile/56941.jpg
+        link: https://www.cordonbleu.edu/melbourne/discover-chocolate-handmade-truffles-and-bonbons/en
+
+      - name: Gateaux, Tortes and Celebration Cakes
+        date: 8 - 9 December 2018
+        price: $515
+        location: Melbourne
+        img: https://static.cordonbleu.edu/Files/MediaFile/56942.jpg
+        link: https://www.cordonbleu.edu/melbourne/gateaux-tortes-and-celebration-cakes/en
+
+
+
+
+
+
+
+
