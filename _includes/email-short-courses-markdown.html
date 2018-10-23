@@ -1,0 +1,10 @@
+{% assign e = site.data.email-events-footer %}
+# {{ e.title }}
+{{ e.description }}
+{% for row in e.short-courses %}{% for course in row.courses %}
+## {{ course.name }}
+* {{ course.date }}  
+* {{ course.location }}
+* {{ course.price }}
+* {{ course.link }}{{ e.utm }}&utm_content={{ course.name }}
+{% endfor %}{% endfor %}

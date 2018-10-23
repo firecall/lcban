@@ -41,20 +41,14 @@ type: home
           </td>
           <td class="text-center">
             <button class="cb btn btn-outline-primary btn-sm" 
-                    data-clipboard-text="# {{ item.subject }}
-{% for i in item.block %}
-## {{ i.title }}
-{{ i.p }}
-
-Read More: {{ i.link }}{{ item.utm }}
-
-{% endfor %}
----
-CRICOS Provider Number: 02380M. RTO ID number: 4959.
-            ">
+                    data-clipboard-text="{% include email-markdown.html item=item %}">
             <i class="fas fa-clone"></i></button>
           </td>
-          <td class="text-center"></td>
+          <td class="text-center">
+            <button class="cb btn btn-outline-primary btn-sm" 
+                    data-clipboard-text="{% include emails.html data=item %}">
+            <i class="fas fa-clone"></i></button>
+          </td>
         </tr>
         {% endfor %}
       </table>

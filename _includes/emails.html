@@ -1,23 +1,23 @@
 {% assign e = include.data %}
-<table class="gmail" style="border-collapse: collapse; border-spacing: 0; width: 650px; min-width: 650px;">
+<table class='gmail' style='border-collapse: collapse; border-spacing: 0; width: 650px; min-width: 650px;'>
   <tbody>
     <tr>
-      <td style="padding: 0; vertical-align: top; font-size: 1px; line-height: 1px;">&nbsp;</td>
+      <td style='padding: 0; vertical-align: top; font-size: 1px; line-height: 1px;'>&nbsp;</td>
     </tr>
   </tbody>
 </table>
-<table class="preheader centered" style="border-collapse: collapse; border-spacing: 0; margin-left: auto; margin-right: auto;">
+<table class='preheader centered' style='border-collapse: collapse; border-spacing: 0; margin-left: auto; margin-right: auto;'>
   <tbody>
     <tr>
-      <td style="padding: 0; vertical-align: top;">
-        <table style="border-collapse: collapse; border-spacing: 0; width: 602px;">
+      <td style='padding: 0; vertical-align: top;'>
+        <table style='border-collapse: collapse; border-spacing: 0; width: 602px;'>
           <tbody>
             <tr>
-              <td class="title" style="padding: 0; vertical-align: top; font-family: Helvetica, Arial, sans-serif; padding-top: 10px; padding-bottom: 12px; font-size: 12px; line-height: 21px; text-align: left; color: #666;">
+              <td class='title' style='padding: 0; vertical-align: top; font-family: Helvetica, Arial, sans-serif; padding-top: 10px; padding-bottom: 12px; font-size: 12px; line-height: 21px; text-align: left; color: #666;'>
                 <div>{{ e.subject }}</div>
                 <div></div>
               </td>
-              <td class="webversion" style="padding: 0; vertical-align: top; font-family: Helvetica, Arial, sans-serif; padding-top: 10px; padding-bottom: 12px; font-size: 12px; line-height: 21px; text-align: right; width: 300px; color: #666;">@variable(readInBrowser)</td>
+              <td class='webversion' style='padding: 0; vertical-align: top; font-family: Helvetica, Arial, sans-serif; padding-top: 10px; padding-bottom: 12px; font-size: 12px; line-height: 21px; text-align: right; width: 300px; color: #666;'>@variable(readInBrowser)</td>
             </tr>
           </tbody>
         </table>
@@ -25,13 +25,13 @@
     </tr>
   </tbody>
 </table>
-<table class="header centered" style="border-collapse: collapse; border-spacing: 0; margin-left: auto; margin-right: auto; ">
+<table class='header centered' style='border-collapse: collapse; border-spacing: 0; margin-left: auto; margin-right: auto; '>
   <tbody>
     <tr>
-      <td class="logo emb-logo-padding-box" style="padding: 0; vertical-align: top; mso-line-height-rule: at-least; padding-top: 6px; padding-bottom: 20px;">
-        <div id="emb-email-header" class="logo-left" style="font-family: Avenir,sans-serif; color: #41637e; font-size: 0px !important; font-weight: bold; letter-spacing: -0.02em; line-height: 0 !important;">
-          <a title="Le Cordon Bleu Australia" href="https://www.cordonbleu.edu/australia/{{ e.utm }}" target="_blank"> 
-            <img style="border: 0; -ms-interpolation-mode: bicubic; display: block; max-width: 396px margin: 0px;" src="https://www.cordonbleu.edu/Files/MediaFile/52962.png?v=2118837776" border="0" alt="Le Cordon Bleu Australia Logo" />
+      <td class='logo emb-logo-padding-box' style='padding: 0; vertical-align: top; mso-line-height-rule: at-least; padding-top: 6px; padding-bottom: 20px;'>
+        <div id='emb-email-header' class='logo-left' style='font-family: Avenir,sans-serif; color: #41637e; font-size: 0px !important; font-weight: bold; letter-spacing: -0.02em; line-height: 0 !important;'>
+          <a title='Le Cordon Bleu Australia' href='https://www.cordonbleu.edu/australia/{{ e.utm }}' target='_blank'> 
+            <img style='border: 0; -ms-interpolation-mode: bicubic; display: block; max-width: 396px margin: 0px;' src='https://www.cordonbleu.edu/Files/MediaFile/52962.png?v=2118837776' border='0' alt='Le Cordon Bleu Australia Logo' />
           </a>
         </div>
       </td>
@@ -39,43 +39,44 @@
   </tbody>
 </table>
 
-<table class="centered" style="border-collapse: collapse; border-spacing: 0; margin-left: auto; margin-right: auto;">
+<table class='centered' style='border-collapse: collapse; border-spacing: 0; margin-left: auto; margin-right: auto;'>
   <tbody>
     <tr>
-      <td class="border" style="padding: 0; vertical-align: top; font-size: 1px; line-height: 1px; background-color: #ededed; width: 1px;">​</td>
-      <td style="padding: 0; vertical-align: top; border-top: 1px solid #ededed; border-bottom: 1px solid #ededed;">
+      <td class='border' style='padding: 0; vertical-align: top; font-size: 1px; line-height: 1px; background-color: #ededed; width: 1px;'>​</td>
+      <td style='padding: 0; vertical-align: top; border-top: 1px solid #ededed; border-bottom: 1px solid #ededed;'>
         {% for i in e.block %}
-        <table class="one-col" style="border-collapse: collapse; border-spacing: 0; margin-left: auto; margin-right: auto; width: 600px; background-color: #ffffff; font-size: 14px; table-layout: fixed;">
+        <table class='one-col' style='border-collapse: collapse; border-spacing: 0; margin-left: auto; margin-right: auto; width: 600px; background-color: #ffffff; font-size: 14px; table-layout: fixed;'>
           <tbody>
             <tr>
-              <td class="column" style="padding: 0; vertical-align: top; text-align: left;">
-                <div class="image" style="font-size: 12px; margin-bottom: 24px; mso-line-height-rule: at-least; color: #333;">
-                  <a href="{{ i.link }}{{ e.utm }}&utm_content={{ i.title }}" target="_blank" title="{{ i.title }}">
-                    <img width="600"
-                      class="gnd-corner-image gnd-corner-image-center gnd-corner-image-top" 
-                      style="border: 0; -ms-interpolation-mode: bicubic; display: block; max-width: 600px; margin: 0px;" 
-                      src="{{ i.img }}" border="0" 
-                      alt="{% if i.img-alt %}{{ i.img-alt }}{% else %}{{ i.title }}{% endif %}" 
+              <td class='column' style='padding: 0; vertical-align: top; text-align: left;'>
+                <div class='image' style='font-size: 12px; margin-bottom: 24px; mso-line-height-rule: at-least; color: #333;'>
+                  <a href='{{ i.link }}{{ e.utm }}&utm_content={{ i.title }}' target='_blank' title='{{ i.title }}'>
+                    <img width='600'
+                      class='gnd-corner-image gnd-corner-image-center gnd-corner-image-top' 
+                      style='border: 0; -ms-interpolation-mode: bicubic; display: block; max-width: 600px; margin: 0px;' 
+                      src='{{ i.img }}' border='0' 
+                      alt='{% if i.img-alt %}{{ i.img-alt }}{% else %}{{ i.title }}{% endif %}' 
                     />
                   </a>
                 </div>
-                <table class="contents" style="border-collapse: collapse; border-spacing: 0; table-layout: fixed; width: 100%;">
+                <table class='contents' style='border-collapse: collapse; border-spacing: 0; table-layout: fixed; width: 100%;'>
                   <tbody>
                     <tr>
-                      <td class="padded" style="padding: 0; vertical-align: top; padding-left: 32px; padding-right: 32px; word-break: break-word; word-wrap: break-word;">
-                        <h2 style="font-weight: 400; font-family: Georgia,serif; margin-top: 0; font-style: italic; font-weight: normal; font-size: 26px; line-height: 32px; margin-bottom: 20px; color: #062b68;"><em><span>{{ i.title }}</span></em></h2>
-                        <p style="font-family: sans-serif; font-style: normal; line-height: 24px; margin-bottom: 24px; color: #333; font-size: 14px;">{{ i.p }}</p>
+                      <td class='padded' style='padding: 0; vertical-align: top; padding-left: 32px; padding-right: 32px; word-break: break-word; word-wrap: break-word;'>
+                        <h2 style='font-weight: 400; font-family: Georgia,serif; margin-top: 0; font-style: italic; font-weight: normal; font-size: 26px; line-height: 32px; margin-bottom: 20px; color: #062b68;'><em><span>{{ i.title }}</span></em></h2>
+                        <p style='font-family: sans-serif; font-style: normal; line-height: 24px; margin-bottom: 24px; color: #333; font-size: 14px;'>{{ i.p }}</p>
                       </td>
                     </tr>
+                    {% unless i.disable-cta == true %}
                     <tr>
-                      <td class="padded" style="padding: 0; vertical-align: top; padding-left: 32px; padding-right: 32px; padding-bottom: 20px; word-break: break-word; word-wrap: break-word;" align="center">
-                        <table class="responsive-table" cellspacing="0" cellpadding="0" border="0">
+                      <td class='padded' style='padding: 0; vertical-align: top; padding-left: 32px; padding-right: 32px; padding-bottom: 20px; word-break: break-word; word-wrap: break-word;' align='center'>
+                        <table class='responsive-table' cellspacing='0' cellpadding='0' border='0'>
                           <tbody>
                             <tr>
-                              <td align="center">
+                              <td align='center'>
                                 <a 
-                                  class="mobile-button" 
-                                  style="
+                                  class='mobile-button' 
+                                  style='
                                     font-size: 14px; 
                                     font-family: Helvetica, Arial, sans-serif; 
                                     font-weight: normal; 
@@ -89,10 +90,10 @@
                                     border-radius: 50px; text-transform: uppercase; 
                                     -webkit-border-radius: 50px; 
                                     -moz-border-radius: 50px; 
-                                    display: inline-block;" 
-                                    title="{{ i.title }}"
-                                    href="{{ i.link }}{{ e.utm }}&utm_content={{ i.title }}" 
-                                    target="_blank">Read More
+                                    display: inline-block;' 
+                                    title='{{ i.title }}'
+                                    href='{{ i.link }}{{ e.utm }}&utm_content={{ i.title }}' 
+                                    target='_blank'>Read More
                                   </a>
                                 </td>
                             </tr>
@@ -100,9 +101,10 @@
                         </table>
                       </td>
                     </tr>
+                    {% endunless %}
                   </tbody>
                 </table>
-                <div class="column-bottom" style="font-size: 8px; line-height: 8px;">&nbsp;</div>
+                <div class='column-bottom' style='font-size: 8px; line-height: 8px;'>&nbsp;</div>
               </td>
             </tr>
           </tbody>
@@ -111,7 +113,7 @@
         {% include email-short-courses.html %}
         <br>
       </td>
-      <td class="border" style="padding: 0; vertical-align: top; font-size: 1px; line-height: 1px; background-color: #ededed; width: 1px;">​</td>
+      <td class='border' style='padding: 0; vertical-align: top; font-size: 1px; line-height: 1px; background-color: #ededed; width: 1px;'>​</td>
     </tr>
   </tbody>
 </table>

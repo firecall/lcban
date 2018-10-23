@@ -1,0 +1,11 @@
+# {{ item.subject }}
+{% for i in item.block %}
+## {{ i.title }}
+{{ i.p }}
+
+Read More: {{ i.link }}{{ item.utm }}
+
+{% endfor %}
+{% include email-short-courses-markdown.html %}
+---
+CRICOS Provider Number: 02380M. RTO ID number: 4959.

@@ -4,6 +4,20 @@ utm: "?utm_source=newsletter&utm_medium=email&utm_campaign=australia-201809-news
 short-courses:
   - row: one
     courses:
+      - name: Adelaide Career Fair 2018
+        date: 10 October 2018
+        price: Free
+        location: Adelaide
+        img: https://static.cordonbleu.edu/Files/MediaFile/58495.jpg
+        link: https://www.cordonbleu.edu/Files/AAMCEN42135.pdf
+
+      - name: Food Photography and Styling Workshop
+        date: 20 - 21 October 2018
+        price: $675
+        location: Melbourne
+        img: https://static.cordonbleu.edu/Files/MediaFile/56940.jpg
+        link: https://www.cordonbleu.edu/melbourne/food-photography-styling-workshop/en
+
       - name: A Taste of Le Cordon Bleu Sydney
         date: 23 October 2018
         price: Free
@@ -11,24 +25,17 @@ short-courses:
         img:  https://static.cordonbleu.edu/Files/MediaFile/58498.jpg
         link: https://www.cordonbleu.edu/sydney/taste-of-lcb/en
 
-      - name: Brisbane Good Food & Wine Show
-        date: 26-28 October 2018
-        price: from $21pp
-        location: Brisbane
-        img:  https://static.cordonbleu.edu/Files/MediaFile/58905.jpg 
-        link: https://goodfoodshow.com.au/brisbane/#     
-
-      - name: Le Cordon Bleu Master of Gastronomic Tourism Residential
-        date: 27-31 October 2018
-        price: $525-$575
-        location: New Zealand
-        img:  https://static.cordonbleu.edu/Files/MediaFile/58903.jpg 
-        link: https://www.facebook.com/events/1392952917419888/
-
   - row: two
     courses:
+      - name: Jakarta Culinary Feastival
+        date: 1 - 4 November 2018
+        price: Check site for details
+        location: Jakarta - Indonesia
+        img: https://static.cordonbleu.edu/Files/MediaFile/58497.png
+        link: http://jakartaculinaryfeastival.com/
+
       - name: A Taste of Le Cordon Bleu Adelaide
-        date: 20 November 2018
+        date: 1 November 2018
         price: Free
         location: Adelaide
         img: https://static.cordonbleu.edu/Files/MediaFile/58498.jpg
@@ -41,6 +48,8 @@ short-courses:
         img: https://static.cordonbleu.edu/Files/MediaFile/56941.jpg
         link: https://www.cordonbleu.edu/sydney/discover-chocolate-handmade-truffles-and-bonbons/en
 
+  - row: three
+    courses:
       - name: Gateaux, Tortes and Celebration Cakes
         date: 7 - 8 December 2018
         price: $550
@@ -48,8 +57,6 @@ short-courses:
         img: https://static.cordonbleu.edu/Files/MediaFile/56942.jpg
         link: https://www.cordonbleu.edu/sydney/gateaux-tortes-and-celebration-cakes/en
 
-  - row: three
-    courses:
       - name: Discover Chocolate - Handmade Truffles and Bonbons
         date: 7 December 2018
         price: $270
@@ -63,4 +70,3 @@ short-courses:
         location: Melbourne
         img: https://static.cordonbleu.edu/Files/MediaFile/56942.jpg
         link: https://www.cordonbleu.edu/melbourne/gateaux-tortes-and-celebration-cakes/en
-
