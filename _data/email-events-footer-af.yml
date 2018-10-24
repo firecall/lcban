@@ -1,22 +1,32 @@
 title: "Short Courses & Events"
 description: Upcoming short courses and events in Adelaide, Brisbane, Melbourne and Sydney.
-utm: "?utm_source=newsletter&utm_medium=email&utm_campaign=australia-201810-newsletter"
+utm: "?utm_source=newsletter&utm_medium=email&utm_campaign=australia-201809-newsletter"
 short-courses:
   - row: one
     courses:
+      - name: A Taste of Le Cordon Bleu Sydney
+        date: 23 October 2018
+        price: Free
+        location: Sydney
+        img:  https://static.cordonbleu.edu/Files/MediaFile/58498.jpg
+        link: https://www.cordonbleu.edu/sydney/taste-of-lcb/en
+
       - name: Brisbane Good Food & Wine Show
         date: 26-28 October 2018
         price: from $21pp
         location: Brisbane
-        img:  https://static.cordonbleu.edu/Files/MediaFile/58905.jpg
-        link: https://goodfoodshow.com.au/brisbane/#
+        img:  https://static.cordonbleu.edu/Files/MediaFile/58905.jpg 
+        link: https://goodfoodshow.com.au/brisbane/#     
 
       - name: Le Cordon Bleu Master of Gastronomic Tourism Residential
         date: 27-31 October 2018
         price: $525-$575
         location: New Zealand
-        img:  https://static.cordonbleu.edu/Files/MediaFile/58903.jpg
+        img:  https://static.cordonbleu.edu/Files/MediaFile/58903.jpg 
         link: https://www.facebook.com/events/1392952917419888/
+
+  - row: two
+    courses:
       - name: A Taste of Le Cordon Bleu Adelaide
         date: 20 November 2018
         price: Free
@@ -24,8 +34,6 @@ short-courses:
         img: https://static.cordonbleu.edu/Files/MediaFile/58498.jpg
         link: https://www.cordonbleu.edu/adelaide/taste-of-lcb/en
 
-  - row: two
-    courses:
       - name: Discover Chocolate - Handmade Truffles and Bonbons
         date: 1 December 2018
         price: $270
@@ -40,6 +48,8 @@ short-courses:
         img: https://static.cordonbleu.edu/Files/MediaFile/56942.jpg
         link: https://www.cordonbleu.edu/sydney/gateaux-tortes-and-celebration-cakes/en
 
+  - row: three
+    courses:
       - name: Discover Chocolate - Handmade Truffles and Bonbons
         date: 7 December 2018
         price: $270
@@ -47,11 +57,10 @@ short-courses:
         img: https://static.cordonbleu.edu/Files/MediaFile/56941.jpg
         link: https://www.cordonbleu.edu/melbourne/discover-chocolate-handmade-truffles-and-bonbons/en
 
-  - row: three
-    courses:
       - name: Gateaux, Tortes and Celebration Cakes
         date: 8 - 9 December 2018
         price: $515
         location: Melbourne
         img: https://static.cordonbleu.edu/Files/MediaFile/56942.jpg
         link: https://www.cordonbleu.edu/melbourne/gateaux-tortes-and-celebration-cakes/en
+
