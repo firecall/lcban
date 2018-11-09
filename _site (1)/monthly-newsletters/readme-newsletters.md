@@ -1,1 +1,0 @@
-https://www.cordonbleu.edu/news/en
